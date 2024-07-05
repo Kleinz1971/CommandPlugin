@@ -1,0 +1,13 @@
+name: CommandPlugin
+version: '${project.version}'
+main: commandplugin.commandplugin.CommandPlugin
+api-version: 1.19
+commands:
+  do:
+    usage: /do heilen
+    description: Heile dich selber
+  hilfe:
+  doexp:
+  dosethome:
+  dohome:
+  dolisthomes:
